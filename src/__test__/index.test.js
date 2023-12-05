@@ -10,7 +10,7 @@ describe("test of string reverse function", () => {
     it("no, 2 == On", () => {
         expect(splitArrByNum("no", 2)).toStrictEqual(["On"]);
     });
-    it("letter, 1 == letter", () => {
+    it("letter, 1 == ReTtEl", () => {
         expect(splitArrByNum("letter", 1)).toStrictEqual(["ReTtEl"]);
     });
     it("yes, 3 == yes", () => {
